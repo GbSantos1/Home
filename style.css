@@ -205,6 +205,13 @@ h3{
     align-content: start;
 }
 
+iframe{
+    width: 60vw;
+    height: 60vh;
+    border: none;
+    border-radius: 10px;
+}
+
 .botao-maps{
     background-color: #304E42;
     color: white;
