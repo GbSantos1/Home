@@ -44,8 +44,32 @@ header{
 .nav{
     display: flex;
     flex-direction: row;
-    gap: 4vw;
+    gap: 2vw;
     justify-content: flex-end;
+
+    font-weight: normal;
+
+    transition: all 0.475;
+}
+
+li a{
+    position: relative;
+}
+
+li a::after{
+    content: " ";
+    width: 0%;
+    height: 0.3vh;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    transition: 0.2s ease-in-out;
+}
+
+li a:hover::after{
+    width: 100%;
 }
 
 .comunidade{
